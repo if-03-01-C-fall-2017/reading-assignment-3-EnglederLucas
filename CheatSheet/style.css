@@ -1,0 +1,61 @@
+h1 {color:red; font-size:3em;}
+
+#webclient { color:green; font:10px;}
+
+#webclientquestion {
+	text-decoration:underline;
+}
+
+h1 {
+	letter-spacing:10px;
+	word-spacing:20px;
+}
+
+/*This is a comment*/
+
+p.double {border-style: double;}
+
+p.answer {
+	border-style: solid;
+	border-width: thick;
+	border-color:red;
+	border-radius:5px;
+}
+
+p {
+	font-family:"Courier New",Courier,monospace;
+	font-size:0,9em;
+}
+
+.headline {background-color:black; color:"red"; margin:25px;}
+
+body {
+    background-image: url("\images\binary.jpg");
+}
+
+#webserverclient:link {
+	color:green;
+	text-decoration:none;
+}
+
+div:hover #secret {
+	display:block;
+}
+
+
+div {
+	display:inline-block;
+}
+
+#secretlink:link, #secretlink:visited{
+	color:white;
+	text-decoration:none;
+}
+
+#secret {
+	color:white;
+	display: none;
+	background-color:blue;
+	padding 20px;
+}
+
